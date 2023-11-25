@@ -1,0 +1,12 @@
+Commandline parser in C
+
+call argInit() first to initialize the parser
+
+call various argAdd() functions to configure arguments you want parsed
+
+call argLngGet..() function to get a pointer to the value of the argument given on the command line.
+
+TODO: 
+  - implement argShrtGet..() function
+  - parse arguments without flags.
+
